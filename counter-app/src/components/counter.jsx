@@ -40,3 +40,5 @@ class Counter extends Component{
         return classes;
     }
 }
+
+export default Counter;
