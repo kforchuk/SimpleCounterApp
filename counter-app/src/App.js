@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
 import Counters from "./components/counters";
-import NavBar from "components/navbar";
+import NavBar from "./components/navbar";
 
-class App extends Component 
-{
+class App extends Component {
   state  = {
     counters: [
       {id: 1, value: 0},
